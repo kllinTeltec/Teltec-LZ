@@ -58,5 +58,5 @@ az deployment mg create \
   --name <name of deployment> \
   --location <location> \
   --management-group-id <mgmtGroupId> \
-  --template-uri "https://raw.githubusercontent.com/Azure/Enterprise-Scale/main/examples/policies/policy-definition/policy-definition.json" \
+  --template-uri "https://raw.githubusercontent.com/kllinTeltec/Teltec-LZ/main/examples/policies/policy-definition/policy-definition.json" \
   --parameters "{ \"policyName\": { \"value\": \"<policy name>\" }, \"policyDescription\": { \"value\": \"<policy description>\" }, \"namePattern\": { \"value\": \"<name pattern>\" }}"
